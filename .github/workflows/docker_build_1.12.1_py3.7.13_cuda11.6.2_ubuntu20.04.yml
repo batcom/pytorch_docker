@@ -36,4 +36,4 @@ jobs:
         run: docker/ubuntu/build.sh
 
       - name: Push docker image
-        run: docker push batcom/pytorch:${IMAGE_TAG}
+        run: docker push registry.cn-hangzhou.aliyuncs.com/batcom/pytorch:${IMAGE_TAG}
