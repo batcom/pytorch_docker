@@ -84,9 +84,8 @@ Docker Hub: https://hub.docker.com/r/cnstark/pytorch
 Generate build script by following command (available versions see [Available Versions](#Available-Versions)):
 
 ```shell
-python generate_build_script.py -os <ubuntu or centos> --os-version <e.g. 20.04, 8> --python <e.g. 3.9.12> --pytorch <e.g. 1.9.1> --cuda <e.g. 11.1, cpu>
+python generate_build_script.py --os <ubuntu or centos> --os-version <e.g. 20.04, 8> --python <e.g. 3.9.12> --pytorch <e.g. 1.9.1> --cuda <e.g. 11.1, cpu>
 ```
-
 ```shell
 usage: generate_build_script.py [-h] --os OS --os-version OS_VERSION --python PYTHON --pytorch PYTORCH [--cuda CUDA]
 
